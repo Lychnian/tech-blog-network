@@ -1,0 +1,65 @@
+<!-- Article section for displaying a single post -->
+<article class="post">
+    <!-- Container for the post content -->
+    <div class="container">
+        <!-- Card header for the post -->
+        <div class="card-header blog-post">
+            <!-- Post title -->
+            <h4 class="card-title post-title">{{post.title}}</h4>
+            <!-- Card body for the post -->
+            <div class="card-body post-body">
+                <!-- Post content -->
+                <p class="card-body post-content">{{post.content}}</p>
+                <!-- Post author and creation date -->
+                <p class="card-text post-author">
+                    Posted by <span class="post-username">{{post.user.username}}</span> on {{format_date post.createdAt}}
+                </p>
+            </div>
+        </div>
+    </div>
+</article>
+
+<!-- Container for adding a new comment -->
+<div class="comment-container">
+    <!-- Form for submitting a new comment -->
+    <form class="card-body comment-form" id="comment-form">
+        <!-- Form row for entering the comment -->
+        <div class="form-row">
+            <!-- Label for the comment input -->
+            <label class="form-label">Comment</label>
+            <!-- Input field for entering the comment -->
+            <input id="comment" name="comment-body" class="form-input  form-control" />
+        </div>
+        <!-- Button for submitting the comment -->
+        <button type="submit" class="btn btn-primary">SUBMIT</button>
+    </form>
+</div>
+
+<!-- Container for displaying comments -->
+<div class="container">
+    <!-- Section for displaying comments -->
+    <div class="comments">
+        <!-- Heading for the comment list -->
+        <h4 class="comment-list">Comments</h4>
+        <!-- Loop through each comment of the post -->
+        {{#each post.comments}}
+        <!-- Card for displaying a single comment -->
+        <div class="card post comment-box">
+            <!-- Card body for the comment -->
+            <div class="card-body post-body">
+                <!-- Text content of the comment -->
+                <div class="card-text comment-text">
+                    {{comment_content}}
+                </div>
+                <!-- Author and creation date of the comment -->
+                <div class="comment-author">
+                    -{{user.username}}, {{format_date createdAt}}
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
+
+<!-- JavaScript file for handling comment submission -->
+<script src="/js/comment.js"></script>
