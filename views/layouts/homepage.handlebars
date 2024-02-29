@@ -1,0 +1,21 @@
+{{#each posts as |post| }}
+    <!-- Start of an article representing a post -->
+    <article class="post">
+        <!-- Container fluid for the post -->
+        <div class="container-fluid">
+            <!-- Card header for the blog post -->
+            <div class="card-header blog-post">
+                <!-- Title of the post with a link to view the full post -->
+                <h4 class="card-title post-title"><a class="link" href="/post/{{id}}">{{title}}</a></h4>
+                <!-- Card body for the post content -->
+                <div class="card-body post-body">
+                    <!-- Content of the post -->
+                    <p class="card-body post-content">{{content}}</p>
+                    <!-- Information about the post author and creation date -->
+                    <p class="card-text post-author">Posted by <span class="post-username">{{user.username}}</span> 
+                    on {{format_date createdAt}}</p>
+                </div>
+            </div>
+        </div>
+    </article>
+{{/each}}
