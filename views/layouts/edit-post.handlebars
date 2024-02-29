@@ -1,0 +1,29 @@
+<!-- Start of the section for editing or deleting a post -->
+<h2>Edit or Delete Post</h2>
+
+<form class="card-body edit-post-form">
+    <!-- Input field for editing the post title -->
+    <div class="form-row">
+        <label for="post-title" class="form-label">Title</label>
+        <!-- Input field pre-filled with the current post title -->
+        <input name="post-title" id="title" type="text" value="{{post.title}}" class="form-input form-control" />
+    </div>
+
+    <!-- Input field for editing the post content -->
+    <div class="form-row">
+        <label class="form-label" for="content">Content</label>
+        <!-- Input field pre-filled with the current post content -->
+        <input name="content" id="content" type="text" value="{{post.content}}" class="form-input form-control" />
+    </div>
+
+    <!-- Button to update the post -->
+    <button id="update" type="submit" class="btn btn-primary">UPDATE POST</button>
+    
+    <!-- Button to delete the post -->
+    <button id="delete" type="submit" class="btn delete-post-btn btn-primary">DELETE POST</button>
+</form>
+
+<!-- Script to handle editing the post -->
+<script src="/js/edit-post.js"></script>
+<!-- Script to handle deleting the post -->
+<script src="/js/delete-post.js"></script>
