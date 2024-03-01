@@ -1,0 +1,117 @@
+/* Apply styles to the body of the webpage */
+body {
+    background-color: rgba(21, 122, 210, 0.564);
+    font-family: Cambria, Cochin, Georgia, Times;
+    font-size: 20px;
+    color: blue;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  /* Apply styles to the header element */
+  header {
+    border-bottom: 4px solid blue;
+    margin-left: 55px;
+    margin-right: 60px;
+  }
+  
+  /* Apply styles to anchor elements within h1 elements */
+  h1 a {
+     font-size: 60px;
+  }
+  
+  /* Apply styles to h1 and h2 elements */
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-weight: bolder;
+  }
+  
+  /* Apply styles to anchor elements within nav elements */
+  nav a {
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-items: center;
+    color:blue;
+    font-weight: bolder;
+  }
+  
+  /* Apply styles to elements with class "card-header" */
+  .card-header {
+    background-color: white;
+    display: block;
+  }
+  
+  /* Apply styles to anchor elements within button elements */
+  button a {
+    color: white;
+  }
+  
+  /* Apply styles to elements with class "post" */
+  .post {
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  /* Apply styles to elements with class "col" */
+  .col {
+    margin: 5px;
+  }
+  
+  /* Center align buttons */
+  .centerthisbutton {
+    text-align: center;
+  }
+  
+    
+  /* Media query for screens with a maximum width of 810px */
+  
+  @media screen and (max-width: 810px) {
+    nav a {
+      font-size: 18px;
+      text-decoration: underline;
+      padding: 6px;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+  }
+  
+  
+  /* Media query for screens with a maximum width of 555px */
+  @media screen and (max-width: 555px) {
+    body {
+      margin: 10px;
+    }
+  
+    h1 a {
+      font-size: 40px;
+    }
+    
+  /* Apply styles to the header element */
+    header {
+      border-bottom: 4px solid blue;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  
+    nav a {
+      font-size: 18px;
+      text-decoration: underline;
+      padding: 6px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+  /* Apply styles to elements with class "post" */
+    .post {
+      margin: 10px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  }
+  
