@@ -1,5 +1,8 @@
 # Tech Blog Network
 
+## Badges
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
 ## Table of Contents
 
 - [License](#license)
