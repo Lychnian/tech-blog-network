@@ -50,7 +50,7 @@ The Tech Blog Network is built using a modern tech stack, leveraging the followi
 
 ## Usage
 
-[Provide instructions for installing and using the project]
+To use the application, simply navigate to the provided deployed link. Once there, you can explore various features such as reading and creating blog posts, commenting on posts, and interacting with other users. To get started, you may need to sign up for an account or log in if you already have one. Then, you can begin browsing content, writing posts, and engaging with the community.
 
 
 
