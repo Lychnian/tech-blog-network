@@ -57,6 +57,17 @@ body {
     margin-left: 40px;
     margin-right: 40px;
   }
+
+  #comment-form {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  #new-post-form {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
   
   /* Apply styles to elements with class "col" */
   .col {
@@ -91,7 +102,12 @@ body {
     h1 a {
       font-size: 40px;
     }
-    
+   
+    header a {
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+
   /* Apply styles to the header element */
     header {
       border-bottom: 4px solid blue;
@@ -107,11 +123,22 @@ body {
       margin-right: 20px;
     }
   
-  /* Apply styles to elements with class "post" */
+  /* Apply styles to elements with class "post", comment-form and new-post-form */
     .post {
       margin: 10px;
       margin-left: 15px;
       margin-right: 15px;
     }
-  }
+
+    
+    #comment-form {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    
+    #new-post-form {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+}
   
