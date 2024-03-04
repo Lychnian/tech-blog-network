@@ -57,7 +57,12 @@ To use the application, simply navigate to the provided deployed link. Once ther
 
 ## Deployed Link
 
-[Include a link ]
+You can access the deployed version of the Tech Blog Network application on Heroku. Click the link below:
+
+[Tech Blog Network - Heroku](https://tech-blog-network-9b9ce01b65a7.herokuapp.com/)
+
+This version of the application is hosted on Heroku and is accessible to view and interact with.
+
 
 
 
