@@ -63,7 +63,36 @@ To use the application, simply navigate to the provided deployed link. Once ther
 
 ## Screenshots
 
-[Include screenshots of the project, if available]
+![tbn01](https://github.com/Lychnian/tech-blog-network/assets/140586279/c8adacf3-048b-4c12-9c5b-3030dbc6fb46)
+
+
+
+![tbn02](https://github.com/Lychnian/tech-blog-network/assets/140586279/254adeab-4944-47e6-b123-63b4db209d02)
+
+
+
+![tbn03](https://github.com/Lychnian/tech-blog-network/assets/140586279/fbc68422-6017-4e5e-b7cb-93a74c3f4ccb)
+
+
+
+![tbn04](https://github.com/Lychnian/tech-blog-network/assets/140586279/de006096-2cb5-4811-ac4b-3a67657004d4)
+
+
+
+![tbn05](https://github.com/Lychnian/tech-blog-network/assets/140586279/dc3b47d7-e161-40f9-a6e4-17910e1f35cd)
+
+
+
+![tbn06](https://github.com/Lychnian/tech-blog-network/assets/140586279/459e4172-943d-4c82-a047-5911a097a444)
+
+
+
+![tbn08](https://github.com/Lychnian/tech-blog-network/assets/140586279/93450155-92bd-456a-bf22-c41dd04c9f05)
+
+
+
+![tbn09](https://github.com/Lychnian/tech-blog-network/assets/140586279/2cd3d85b-0f5a-4e2b-a9d8-c5ba6d19bdba)
+
 
 
 
